@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Linking Bulma CSS Framework-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Lyric Finder</title>
+</head>
+<body>
+    <header class="title">
+        <h1 class="title is-1">Lyric Finder</h1>
+    </header>
+
+    <div class="container">
+        <div>
+            <div class="field has-addons">
+                <div class="control" id="userInput" >
+                  <input class="input" type="text" placeholder="Search song or artist">
+                </div>
+                <div class="control" id="searchBtn">
+                  <a class="button is-info">
+                    Search
+                  </a>
+                </div>
+            </div>
+    
+            <!--Lyrics result-->
+            <div id="lyricsResult">
+                <p>Lyrics results here...</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Linking javascript-->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
